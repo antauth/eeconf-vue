@@ -1,0 +1,37 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "components": "^0.1.0",
+    "core-js": "^2.6.5",
+    "lodash": "^4.17.11",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "tslib": "^1.10.0",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.0.2",
+    "vue-hot-reload-api": "^2.3.3",
+    "vue-property-decorator": "^8.2.0",
+    "vue-router": "^3.0.6",
+    "vue-socket.io": "^3.0.7",
+    "vue-websocket": "^0.2.3",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-typescript": "^3.8.1",
+    "@vue/cli-service": "^3.8.0",
+    "@vue/component-compiler-utils": "^3.0.0",
+    "autoprefixer": "^9.6.0",
+    "cssnano": "^4.1.10",
+    "typescript": "^3.5.2",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
